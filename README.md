@@ -27,7 +27,7 @@ Have [IntelliJ](https://www.jetbrains.com/idea/) and [Neo4J desktop](https://neo
 
 ![image](https://user-images.githubusercontent.com/62215188/162046547-f0fd53e9-b71e-4128-9f52-c5bb0181b6b2.png)
 
-8. Pom.xml should look liuke this:
+8. Pom.xml should look like this:
 
 ![image](https://user-images.githubusercontent.com/62215188/162046208-0cc6d7a4-c8c8-4c65-a3af-70416746fa89.png)
 
