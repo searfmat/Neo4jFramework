@@ -1,3 +1,7 @@
+# ![image](https://user-images.githubusercontent.com/62215188/162474525-7641d77b-7a97-4b7e-8014-c6eb41490b36.png) NeoFramework
+
+Simple Java framework for interfacing with Neo4j
+
 ## Prerequisites
 Have [IntelliJ](https://www.jetbrains.com/idea/) and [Neo4J desktop](https://neo4j.com/download/) installed.
 ## Server Startup
@@ -8,6 +12,7 @@ Have [IntelliJ](https://www.jetbrains.com/idea/) and [Neo4J desktop](https://neo
 5. Hover over the server, click the three dots, then **Settings**
 6. Scroll down to *Network connector configuration* and make sure the following line is uncommented:
 ![image](https://user-images.githubusercontent.com/62215188/162043764-ca450247-b409-4e25-9400-08ba7ae683c7.png)
+
 7. Apply changes and close.
 8. Feel free to start the server and open it to ensure everything is running correctly.
 ## Java Setup - From repo
@@ -36,8 +41,9 @@ Have [IntelliJ](https://www.jetbrains.com/idea/) and [Neo4J desktop](https://neo
 
 9. Under **src/main/java/** make a new Java class with the same name as the project.
 10. Add the Java code found in this repo.
-11. Swap *neoFramework* with the name of your project.
+11. Swap *NeoFramework* with the name of your project.
+12. Add own Cypher code in the resources folder.
 ## Running the code
 1. Make sure the server is running on the neo4j desktop.
-2. Run the code. It should print a greeting in the console.
-3. On the server there should now be a visable node.
+2. Run the code. It should print a the query ID along with the Cypher command.
+3. On the server there should now be visable nodes corresponding to the Cypher code.
