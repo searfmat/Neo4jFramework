@@ -10,7 +10,10 @@ Have [IntelliJ](https://www.jetbrains.com/idea/) and [Neo4J desktop](https://neo
 ![image](https://user-images.githubusercontent.com/62215188/162043764-ca450247-b409-4e25-9400-08ba7ae683c7.png)
 7. Apply changes and close.
 8. Feel free to start the server and open it to ensure everything is running correctly.
-## Java Setup
+## Java Setup - From repo
+1. Create new project from version control.
+2. Select Git, paste url of repo.
+## Java Setup - Scratch Project
 1. Open IntelliJ and create a new project.
 2. Select **Maven**, and set the *Project SDK* to Oracle JDK 11. If it is not there, then select **Download JDK** and grab version 11.
 
@@ -32,8 +35,8 @@ Have [IntelliJ](https://www.jetbrains.com/idea/) and [Neo4J desktop](https://neo
 ![image](https://user-images.githubusercontent.com/62215188/162046208-0cc6d7a4-c8c8-4c65-a3af-70416746fa89.png)
 
 9. Under **src/main/java/** make a new Java class with the same name as the project.
-10. Add the Java code found [here](https://neo4j.com/developer/java/).
-11. Swap *HelloWorldExample* with the name of your project.
+10. Add the Java code found in this repo.
+11. Swap *neoFramework* with the name of your project.
 ## Running the code
 1. Make sure the server is running on the neo4j desktop.
 2. Run the code. It should print a greeting in the console.
