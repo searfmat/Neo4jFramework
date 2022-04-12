@@ -1,7 +1,6 @@
 import org.neo4j.driver.AuthTokens;
 import org.neo4j.driver.Driver;
 import org.neo4j.driver.GraphDatabase;
-import org.neo4j.driver.Result;
 import org.neo4j.driver.Session;
 
 import java.io.BufferedReader;
@@ -18,8 +17,7 @@ public class NeoFramework implements AutoCloseable
     }
 
     @Override
-    public void close() throws Exception
-    {
+    public void close() {
         driver.close();
     }
 
@@ -28,10 +26,7 @@ public class NeoFramework implements AutoCloseable
         try ( Session session = driver.session() )
         {
             Object db_return = session.writeTransaction(tx ->
-            {
-                Result result = tx.run( cypher );
-                return result;
-            } );
+                    tx.run( cypher ));
             System.out.println( db_return + ": " + cypher);
         }
     }
